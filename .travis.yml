@@ -19,6 +19,5 @@ script:
 # Defini que o processo de Deploy será na Plataforma Heroku. É necessário informar o nome da APP criada no Heroku
 deploy:
   provider: heroku
-  api-key: 
-    secure: "4a0d03b4-f15c-4354-963f-3cf1bd006e4a"
+  api-key: "4a0d03b4-f15c-4354-963f-3cf1bd006e4a"
   app: devopslab-alphalupi
